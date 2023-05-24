@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+  }
+  
+  .component-container {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .component-one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .component-two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgreen;
+    text-align: center;
+    transform: translateY(100%);
+    z-index: 2;
+  }

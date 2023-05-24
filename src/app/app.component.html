@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="component-container">
+    <div [@slideIn] *ngIf="showComponentTwo">
+      <app-component-two></app-component-two>
+    </div>
+    <app-component-one *ngIf="showComponentOne"></app-component-one>
+  </div>
+  <button (click)="toggleComponents()">Toggle Components</button>
+</div>
